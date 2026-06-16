@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt món</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav>
+  <div class="logo">Cơm Tấm 3 Ngon</div>
+  <ul>
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="menu.html">Thực đơn</a></li>
+    <li><a href="chitiet.html">Chi tiết món</a></li>
+    <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+    <li><a href="datmon.html">Đặt món</a></li>
+    <li><a href="lienhe.html">Liên hệ</a></li>
+  </ul>
+</nav>
+</header>
+
+<section>
+<h2 class="title">Đặt món</h2>
+<div class="form-box">
+  <label>Họ tên</label>
+  <input type="text" placeholder="Nhập họ tên">
+  <label>Chọn món</label>
+  <select>
+    <option>Cơm tấm sườn</option>
+    <option>Cơm tấm sườn bì</option>
+    <option>Cơm tấm sườn chả</option>
+    <option>Cơm tấm đặc biệt</option>
+  </select>
+  <label>Số lượng</label>
+  <input type="number" min="1" value="1">
+  <label>Địa chỉ giao hàng</label>
+  <textarea rows="4" placeholder="Nhập địa chỉ"></textarea>
+  <button onclick="datMon()">Gửi đơn</button>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Cơm Tấm 3 Ngon | Đồ án Thiết kế Web</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
